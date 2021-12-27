@@ -3,33 +3,34 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
-  font-size: 12px;
-}
-
 .para {
   font-size: 22px;
+  font-weight: bold;
 }
 
-.confirm {
-  background: green;
-  color: white;
+.small-para {
+ font-size: 12px;
+}
+
+#confirm-button {
+  background-color: green;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   font-weight: bold;
 } 
 
-.button {
-  background-color: #ffc0cb;
+#cancel-button {
+  background-color: pink;
   color: black;
   font-size: 20px;
 }
 
-.child {
-  color: red;
-  font-size: 14px;
+.text{
+  color: green;
+  font-size: 50px;
 }
 
-div.text {
-  color: green;
+div.child {
+  color: red;
   font-size: 28px;
 }
